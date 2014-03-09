@@ -12,4 +12,3 @@ Install as a vim bundle with either pathogen or vundle.
 
 ## Usage
 `;s` is mapped to echo the evaluation when the cursor is placed inside a scheme form.
-

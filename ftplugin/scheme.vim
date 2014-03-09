@@ -1,4 +1,4 @@
-nmap <buffer> ;s :echo schemer#eval()<CR>
+nmap <silent> <buffer> ;s :echo schemer#eval()<CR>
 imap <buffer> ;l lambda 
 
 " Show lambdas as  λ
