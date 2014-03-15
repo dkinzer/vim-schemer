@@ -4,5 +4,5 @@ function! schemer#eval() abort
   let form = shellescape(@s)
   let rhs = shellescape("(write ")
   let lhs = shellescape(") ")
-  return system("echo " .  rhs . form . lhs . " | scheme --quiet --eval --load " . @% )
+  return system("echo " .  rhs . form . lhs . " | scheme --band runtime.com --quiet --eval --load " . @% )
 endfunction
